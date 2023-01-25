@@ -1,0 +1,83 @@
+@import url('https://rsms.me/inter/inter.css');
+
+@supports (font-variation-settings: normal) {
+    html {
+        font-family: 'Inter var', sans-serif;
+    }
+}
+
+#title {
+    font-family: 'Inter var';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 72px;
+    text-align: center;
+    color: #2DC7FF;
+}
+
+#container {
+    padding: 16px 16px
+}
+
+.card {
+    margin: 16px 16px;
+
+    border-style: solid;
+    border-color: rgb(35, 35, 35);
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+#bug:hover {
+    border-color: #A288E3;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#minor:hover {
+    border-color: #F38A38;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+#major:hover {
+    border-color: #0CCA4A;
+    border-radius: 8px;
+    transition: 0.15s;
+}
+
+.badge-bug {
+    background-color: #A288E3;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-minor {
+    background-color: #F38A38;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.badge-major {
+    background-color: #0CCA4A;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.download {
+    background-color: #3F88C5;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 2px 16px;
+}
