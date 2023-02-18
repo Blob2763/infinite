@@ -34,8 +34,6 @@
     transition: 0.15s;
 }
 
-
-
 #minor:hover {
     border-color: #F38A38;
     border-radius: 8px;
@@ -97,3 +95,10 @@ h3 span {
     margin: 10px 0 20px; 
 }
 
+.channel {
+    background-color: #6b7ae8ab;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
